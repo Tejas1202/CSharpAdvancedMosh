@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CsharpAdvancedMosh.Generics;
 
 namespace CsharpAdvancedMosh
 {
@@ -10,6 +6,8 @@ namespace CsharpAdvancedMosh
     {
         static void Main(string[] args)
         {
+            var caller = new Caller();
+            caller.Call();
         }
     }
 }
