@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegates\Caller.cs" />
+    <Compile Include="Delegates\Photo.cs" />
+    <Compile Include="Delegates\PhotoFilters.cs" />
+    <Compile Include="Delegates\PhotoProcessor.cs" />
     <Compile Include="Generics\BeforeGenericsCame\BookList.cs" />
     <Compile Include="Generics\Caller.cs" />
     <Compile Include="Generics\Constraints\DiscountCalculator.cs" />
