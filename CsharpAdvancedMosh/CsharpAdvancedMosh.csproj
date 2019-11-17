@@ -42,15 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Generics\BookList.cs" />
+    <Compile Include="Generics\BeforeGenericsCame\BookList.cs" />
     <Compile Include="Generics\Caller.cs" />
     <Compile Include="Generics\Constraints\DiscountCalculator.cs" />
     <Compile Include="Generics\GenericDictionary.cs" />
     <Compile Include="Generics\GenericList.cs" />
-    <Compile Include="Generics\List.cs" />
+    <Compile Include="Generics\BeforeGenericsCame\List.cs" />
     <Compile Include="Generics\Constraints\Nullable.cs" />
-    <Compile Include="Generics\ObjectList.cs" />
-    <Compile Include="Generics\Product.cs" />
+    <Compile Include="Generics\BeforeGenericsCame\ObjectList.cs" />
+    <Compile Include="Generics\Constraints\Product.cs" />
     <Compile Include="Generics\Constraints\Utilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

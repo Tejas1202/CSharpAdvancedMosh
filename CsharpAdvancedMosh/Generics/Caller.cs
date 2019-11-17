@@ -1,4 +1,5 @@
 ﻿using System;
+using CsharpAdvancedMosh.Generics.BeforeGenericsCame;
 
 namespace CsharpAdvancedMosh.Generics
 {
@@ -26,6 +27,10 @@ namespace CsharpAdvancedMosh.Generics
             var number = new Nullable<int>(5);
             Console.WriteLine("Has value? " + number.HasValue);
             Console.WriteLine("Value: " + number.GetValueOrDefault());
+
+            var numberTwo = new Nullable<int>();
+            Console.WriteLine("Has value? " + numberTwo.HasValue);
+            Console.WriteLine("Value: " + numberTwo.GetValueOrDefault());
         }
     }
 }

@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CsharpAdvancedMosh.Generics
+namespace CsharpAdvancedMosh.Generics.BeforeGenericsCame
 {
     //So for every new type we'd to create new classes earlier when generics wasn't introduced
     class BookList
@@ -20,7 +16,7 @@ namespace CsharpAdvancedMosh.Generics
         }
     }
 
-    public class Book : Product
+    public class Book
     {
         public string IsBn { get; set; }
     }

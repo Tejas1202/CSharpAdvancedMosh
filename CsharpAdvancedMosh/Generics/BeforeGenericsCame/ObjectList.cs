@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CsharpAdvancedMosh.Generics
+namespace CsharpAdvancedMosh.Generics.BeforeGenericsCame
 {
     //But here, with the Object list also, there are performance issues
     //Boxing and unboxing will happen while dealing with value types

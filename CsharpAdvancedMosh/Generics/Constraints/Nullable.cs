@@ -1,5 +1,6 @@
 ﻿namespace CsharpAdvancedMosh.Generics.Constraints
 {
+    //Note: We already have System.Nullable structure in .NET
     //Constraint : Value type (As value types like int, float etc. cannot be null, this constraint gives the ability to assign them null values also)
     public class Nullable<T> where T : struct
     {
@@ -7,7 +8,6 @@
 
         public Nullable()
         {
-
         }
 
         public Nullable(T value)

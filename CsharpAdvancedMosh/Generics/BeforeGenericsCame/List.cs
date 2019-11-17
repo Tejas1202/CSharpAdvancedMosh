@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CsharpAdvancedMosh.Generics
+namespace CsharpAdvancedMosh.Generics.BeforeGenericsCame
 {
+    //To create a list of numbers
     class List
     {
         public void Add(int number)
