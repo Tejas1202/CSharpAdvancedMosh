@@ -9,6 +9,9 @@
 
             var delegatesCaller = new Delegates.Caller();
             delegatesCaller.Call();
+
+            var lambdaCaller = new LambdaExpressions.Caller();
+            lambdaCaller.Call();
         }
     }
 }

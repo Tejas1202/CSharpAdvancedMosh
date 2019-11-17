@@ -15,7 +15,7 @@ namespace CsharpAdvancedMosh.Delegates
             PhotoProcessor.PhotoFilterHandler filterHandler = filters.ApplyBrightness;
             filterHandler += filters.ApplyContrast;
             filterHandler += RemoveRedEyeFilter;           
-            photoProcessor.Process("phpto.jpg", filterHandler);
+            photoProcessor.Process("photo.jpg", filterHandler);
 
             //With .NET delegates
             Action<Photo> actionFilterHandler = filters.ApplyBrightness;

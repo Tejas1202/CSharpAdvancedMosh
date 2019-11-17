@@ -56,6 +56,8 @@
     <Compile Include="Generics\BeforeGenericsCame\ObjectList.cs" />
     <Compile Include="Generics\Constraints\Product.cs" />
     <Compile Include="Generics\Constraints\Utilities.cs" />
+    <Compile Include="LambdaExpressions\BookRepository.cs" />
+    <Compile Include="LambdaExpressions\Caller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
