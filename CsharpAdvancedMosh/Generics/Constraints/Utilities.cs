@@ -17,7 +17,8 @@ namespace CsharpAdvancedMosh.Generics.Constraints
         //At that time, we need to use constraints  (we want to assume that both a and b will implement the IComparable interface, which provides CompareTo method)
         //public T Max<T>(T a, T b)
         //{
-        //    return a > b > a : b;
+        //    a. //Will only give the methods that are in the object class
+        //    return a > b ? a : b;
         //}
         #endregion
 
