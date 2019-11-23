@@ -12,6 +12,9 @@
 
             var lambdaCaller = new LambdaExpressions.Caller();
             lambdaCaller.Call();
+
+            var eventsCaller = new Events.Caller();
+            eventsCaller.Call();
         }
     }
 }

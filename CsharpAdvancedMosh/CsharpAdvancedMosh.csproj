@@ -46,6 +46,12 @@
     <Compile Include="Delegates\Photo.cs" />
     <Compile Include="Delegates\PhotoFilters.cs" />
     <Compile Include="Delegates\PhotoProcessor.cs" />
+    <Compile Include="Events\Caller.cs" />
+    <Compile Include="Events\MailService.cs" />
+    <Compile Include="Events\MessageService.cs" />
+    <Compile Include="Events\Video.cs" />
+    <Compile Include="Events\VideoEncoder.cs" />
+    <Compile Include="Events\SendingEventArgs\VideoEventArgs.cs" />
     <Compile Include="Generics\BeforeGenericsCame\BookList.cs" />
     <Compile Include="Generics\Caller.cs" />
     <Compile Include="Generics\Constraints\DiscountCalculator.cs" />
