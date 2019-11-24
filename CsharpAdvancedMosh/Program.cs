@@ -18,6 +18,9 @@
 
             var extensionMethodsCaller = new ExtensionMethods.Caller();
             extensionMethodsCaller.Call();
+
+            var linqCaller = new LINQ.Caller();
+            linqCaller.Call();
         }
     }
 }

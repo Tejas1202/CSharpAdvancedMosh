@@ -66,6 +66,9 @@
     <Compile Include="Generics\Constraints\Utilities.cs" />
     <Compile Include="LambdaExpressions\BookRepository.cs" />
     <Compile Include="LambdaExpressions\Caller.cs" />
+    <Compile Include="LINQ\Book.cs" />
+    <Compile Include="LINQ\BookRepository.cs" />
+    <Compile Include="LINQ\Caller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
