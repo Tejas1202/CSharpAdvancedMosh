@@ -15,6 +15,9 @@
 
             var eventsCaller = new Events.Caller();
             eventsCaller.Call();
+
+            var extensionMethodsCaller = new ExtensionMethods.Caller();
+            extensionMethodsCaller.Call();
         }
     }
 }

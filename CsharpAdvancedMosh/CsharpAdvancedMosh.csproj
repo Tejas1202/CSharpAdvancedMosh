@@ -52,6 +52,8 @@
     <Compile Include="Events\Video.cs" />
     <Compile Include="Events\VideoEncoder.cs" />
     <Compile Include="Events\SendingEventArgs\VideoEventArgs.cs" />
+    <Compile Include="ExtensionMethods\Caller.cs" />
+    <Compile Include="ExtensionMethods\StringExtensions.cs" />
     <Compile Include="Generics\BeforeGenericsCame\BookList.cs" />
     <Compile Include="Generics\Caller.cs" />
     <Compile Include="Generics\Constraints\DiscountCalculator.cs" />
