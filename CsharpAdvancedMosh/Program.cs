@@ -21,6 +21,9 @@
 
             var linqCaller = new LINQ.Caller();
             linqCaller.Call();
+
+            var nullableTypesCaller = new NullableTypes.Caller();
+            nullableTypesCaller.Call();
         }
     }
 }
