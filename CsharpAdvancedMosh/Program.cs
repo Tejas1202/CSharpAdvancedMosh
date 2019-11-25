@@ -24,6 +24,9 @@
 
             var nullableTypesCaller = new NullableTypes.Caller();
             nullableTypesCaller.Call();
+
+            var dynamicCaller = new Dynamic.Caller();
+            dynamicCaller.Call();
         }
     }
 }
