@@ -27,6 +27,9 @@
 
             var dynamicCaller = new Dynamic.Caller();
             dynamicCaller.Call();
+
+            var exceptionHandlingCaller = new ExceptionHandling.Caller();
+            exceptionHandlingCaller.Call();
         }
     }
 }

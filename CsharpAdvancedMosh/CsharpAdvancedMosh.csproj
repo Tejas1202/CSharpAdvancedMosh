@@ -53,6 +53,10 @@
     <Compile Include="Events\Video.cs" />
     <Compile Include="Events\VideoEncoder.cs" />
     <Compile Include="Events\SendingEventArgs\VideoEventArgs.cs" />
+    <Compile Include="ExceptionHandling\Calculator.cs" />
+    <Compile Include="ExceptionHandling\Caller.cs" />
+    <Compile Include="ExceptionHandling\YoutubeApi.cs" />
+    <Compile Include="ExceptionHandling\YoutubeException.cs" />
     <Compile Include="ExtensionMethods\Caller.cs" />
     <Compile Include="ExtensionMethods\StringExtensions.cs" />
     <Compile Include="Generics\BeforeGenericsCame\BookList.cs" />
