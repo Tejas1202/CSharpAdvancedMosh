@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace CsharpAdvancedMosh.ExceptionHandling
 {
+    // We might not want our other classes in the application to get lower level exceptions from the Youtube Api directly,
+    // hence in that case, we can create CustomExceptions in which lower level exceptions can be wrapped
     class YoutubeApi
     {
         public List<Video> GetVideos(string user)

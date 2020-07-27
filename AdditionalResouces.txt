@@ -1,0 +1,14 @@
+// These are the additional resources recommended by Mosh to make you a better developer
+
+1. Applying UML and Patterns by Craig Larman (for deeper understanding of objects and designing clean Object Oriented Solutions)
+
+2. Agile Principles, Patterns and Practices in C# by Robert C. Martin (aka Uncle Bob) for SOLID Principles and design
+
+3. Clean Code by Robert C. Martin (a little old)
+
+4. The art of Unit testing by Roy Osherove
+
+// Additional blogs to refer
+1. http://odetocode.com
+2. http://weblogs.asp.net/scottgu
+3. http://www.hanselman.com/blog

@@ -46,6 +46,10 @@
     <Compile Include="Delegates\Photo.cs" />
     <Compile Include="Delegates\PhotoFilters.cs" />
     <Compile Include="Delegates\PhotoProcessor.cs" />
+    <Compile Include="Delegates\UsingInterface\IPhotoFilter.cs" />
+    <Compile Include="Delegates\UsingInterface\PhotoFilters\BrightnessFilter.cs" />
+    <Compile Include="Delegates\UsingInterface\PhotoFilters\ContrastFilter.cs" />
+    <Compile Include="Delegates\UsingInterface\PhotoProcessor.cs" />
     <Compile Include="Dynamic\Caller.cs" />
     <Compile Include="Events\Caller.cs" />
     <Compile Include="Events\MailService.cs" />

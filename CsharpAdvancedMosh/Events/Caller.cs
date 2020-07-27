@@ -14,6 +14,7 @@
             //which means this is a reference/pointer to that method. Hence VideoEncoded event behind the scenes is a list of pointers to methods
             videoEncoder.VideoEncoded += messageService.OnVideoEncoded;
             videoEncoder.VideoEncoded += null;
+            // Hence we added subscribers to the event before calling/starting Encode
             videoEncoder.Encode(video);
 
             //Sending EventArgs to the subscribers

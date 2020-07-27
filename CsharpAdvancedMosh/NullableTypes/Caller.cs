@@ -16,7 +16,7 @@ namespace CsharpAdvancedMosh.NullableTypes
             DateTime? dateThree = dateTwo; //But non-nullable to nullable don't need a conversion
             Console.WriteLine(dateThree);
 
-            //Null coalescing
+            //Null coalescing operator, shorter way of ternary (the difference being the condition it always checks for is null)
             date = null;
             DateTime dateFour = date ?? DateTime.Today;
             Console.WriteLine(dateFour);

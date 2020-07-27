@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CsharpAdvancedMosh.Delegates.UsingInterface.PhotoFilters;
+using System;
+using System.Runtime.InteropServices;
 
 namespace CsharpAdvancedMosh.Delegates
 {
@@ -6,7 +8,7 @@ namespace CsharpAdvancedMosh.Delegates
     {
         public void Call()
         {
-            //Without delegates
+            //Without delegates (hence not extensible if we want to apply our own filter as we'll need to change PhotoProcessor class)
             var photoProcessor = new PhotoProcessor();
             photoProcessor.Process("photo.jpg");
 
@@ -23,13 +25,25 @@ namespace CsharpAdvancedMosh.Delegates
             photoProcessor.Process("photo.jpg", actionFilterHandler);
             Action<Photo> action = new Action<Photo>(filters.ApplyBrightness); //Can also call in this way
             action(new Photo());
+
+            UsingInterfaces();
         }
 
-        //Developer adding new filter which was not part of the framework
+        //Developer adding new filter which was not part of the framework and it shoould comply with the delegate signature
         //PhotoProcessor and PhotoFilters classes still left unchanged. Hence extensibility achieved
         static void RemoveRedEyeFilter(Photo photo)
         {
             Console.WriteLine("Apply remove redeye");
         }
+
+        #region extensibility using Interface instead of delegates to acheive the same thing
+        private void UsingInterfaces()
+        {
+            var photoProcessor = new UsingInterface.PhotoProcessor();
+            photoProcessor.AddFilters(new BrightnessFilter());
+            photoProcessor.AddFilters(new ContrastFilter());
+            photoProcessor.Process(new Photo());
+        }
+        #endregion
     }
 }

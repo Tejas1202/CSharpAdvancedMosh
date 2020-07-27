@@ -6,7 +6,7 @@ namespace CsharpAdvancedMosh.Events
     //Subscriber
     class MailService
     {
-        //Event handler
+        //Event handler (defining signature of method based on the contract i.e. delegate)
         public void OnVideoEncoded(object source, EventArgs e)
         {
             Console.WriteLine("MailService: Sending an Email...");

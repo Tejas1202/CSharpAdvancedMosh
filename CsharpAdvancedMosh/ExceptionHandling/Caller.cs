@@ -53,10 +53,9 @@ namespace CsharpAdvancedMosh.ExceptionHandling
                 //otherwise we may keep open files, network/database connections and we may run out of resources
                 if (streamReader != null)
                     streamReader.Dispose(); //Calling the Dispose method of IDisposable interface
-
             }
 
-            #region Shorter way of writing the above code with "using"
+            #region Shorter way of writing the above code with "using", so we don't can declare a more local variable and don't have to write finally block
             try
             {
                 //Internally compiler will create finally block under the hood
